@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Site Marketplace</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://img1.freepng.fr/20171220/ajq/shopping-cart-png-5a3a4566719ed0.1530820715137682944654.jpg" width="100">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Mettre en vente</a></li>
+        <li><a href="#">Paramètres</a></li>
+        <li><a href="#">Connexion</a></li>
+        <li><a href="#">Panier</a></li>
+      </ul>
+    </nav>
+    <div class="barreRecherche">
+      <input type="texte">
+      <button type="Entrer">Rechercher</button>
+    </div>
+  </header>
+  <main>
+    <div class="slider">
+      <div class="slide active">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png" alt="Slide 1">
+      </div>
+      <div class="slide">
+        <img src="https://circawho.com/wp-content/uploads/image-test-filler-blank.jpg" alt="Slide 2">
+      </div>
+      <div class="slide">
+        <img src="https://i0.wp.com/iambooksboston.com/wp-content/uploads/woocommerce-placeholder.png?fit=800%2C800&ssl=1" alt="Slide 3">
+      </div>
+      <div class="slide-nav">
+        <button class="active"></button>
+        <button></button>
+        <button></button>
+      </div>
+    </div>
+    <section id="produits">
+      <div class="produit">
+        <img src="https://via.placeholder.com/150" alt="produit 1">
+        <div class="legende">Légende du produit 1</div>
+      </div>
+      <div class="produit">
+        <img src="https://via.placeholder.com/150" alt="produit 2">
+        <div class="legende">Légende du produit 2</div>
+      </div>
+      <div class="produit">
+        <img src="https://via.placeholder.com/150" alt="produit 3">
+        <div class="legende">Légende du produit 3</div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </main>
+</body>
+</html>
